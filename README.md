@@ -1,4 +1,4 @@
-#Home assistant 
+# Home assistant 
 
 En este proyecto educativo se  pretende realizar la automatizacion de diversos
 dispositivos electronicos a traves del uso de la placa de raspberry pi 3
