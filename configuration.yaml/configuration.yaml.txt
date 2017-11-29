@@ -1,0 +1,99 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Hogar
+  # Location required to calculate the time the sun rises and sets
+  latitude: 17.05
+  longitude: -96.7167
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 1539
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Mexico_City
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+switch:
+  - platform: rpi_gpio
+    ports:
+      17: Luz Interior
+      18: Luz Exterior
+    invert_logic: false
+
+binary_sensor:
+  - platform: rpi_gpio
+    ports:
+      18: Luz Enterior
+
+automation:
+  - trigger:
+      platform: state
+      entity_id: binary_sensor.Luz_Exterior
+    action:
+      service: switch.toggle
+      entity_id: switch.Luz_Exterior
+
+#https://community.home-assistant.io/t/momentary-switch-on-raspberry/13085
+#https://comohacer.eu/gpio-raspberry-pi/
+
+#switch:
+#- platform: rpi_rf
+#  gpio: 12
+#  switches:
+#    bedroom_fan:
+#      protocol: 1
+#      pulselength: 186
+#      code_on:  code1_on
+      code_off: code1_off
+
+
+# Weather prediction
+sensor:
+  - platform: yr
+
+# Text to speech
+tts:
+  - platform: google
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
