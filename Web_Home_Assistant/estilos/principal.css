@@ -18,7 +18,7 @@ html {
 #contenedor {
     width: 100%;
     height: 1800px;
-    background-color:#00CCFF;7
+
     
 }
 
@@ -124,7 +124,7 @@ background-repeat: repeat;
     height: 60px;
     font-size: 17px;
     padding: 15px;
-   background-image: url(../images/hom.png);
+    background-image: url(../images/hom.png);
     background-repeat: repeat;
     
 }
@@ -134,10 +134,8 @@ right: -140px;
 
 }
 
-.nav li ul li ul {  
-    
- 
-}
+
+
 #inicio{
   background-color:#018956;  
 }
@@ -296,4 +294,206 @@ h3{
     left: 0;
     
 }
+}
+
+#cuerpo {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    background-color: #3C3F41;
+    background-image: url(../images/hom.png);
+    background-repeat: repeat;
+}
+
+h5 {
+    font-family: Verdana;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.info {
+    width: 210px;
+    height: 142px;
+    display: inline-block;
+    background-color: #fefefe;
+    margin: 4px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-top: 10px;
+    
+}
+
+#cuerpocentro {
+    margin-left: 200px;
+    width: 70%;
+    height: 850px;
+    background-color: aqua;
+    padding-left: 27px;
+}
+
+#amazon img {
+    width: 194px;
+    height: 43px;
+
+
+}
+
+#arduino img {
+    width: 74px;
+    height: 50px;
+
+
+}
+
+#beikin img {
+    width: 50px;
+    height: 50px;
+
+}
+
+#dark img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+#ecobee img {
+    width: 194px;
+    height: 40px;
+
+
+}
+
+#googlea img {
+    width: 50px;
+    height: 50px;
+;
+
+}
+
+#googlec img {
+    width: 194px;
+    height: 58px;
+
+
+}
+
+#ifttt img {
+    width: 189px;
+    height: 56px;
+
+
+}
+
+#ikea img {
+    width: 140px;
+    height: 50px;
+
+
+}
+
+#kodi img {
+    width: 132px;
+    height: 50px;
+
+
+}
+
+#mqtt img {
+    width: 191px;
+    height: 50px;
+
+
+}
+#mysensor img {
+    width: 143px;
+    height: 50px;
+
+
+}
+
+#nest img {
+    width: 118px;
+    height: 50px;
+
+
+}
+
+#own img {
+    width: 39px;
+    height: 50px;
+
+
+}
+
+#philips img {
+    width: 125px;
+    height: 50px;
+background-color: fuchsia;
+
+}
+
+#plex img {
+    width: 155px;
+    height: 50px;
+
+
+}
+
+#pushbullet img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+#sonos img {
+    width: 194px;
+    height: 39px;
+
+
+}
+#wink img {
+    width: 113px;
+    height: 50px;
+
+
+}
+
+#z-wave img {
+    width: 103px;
+    height: 56px;
+
+
+}
+
+.content {
+    width: 100%;
+    height: 5000px;
+    background-color: darkturquoise;
+}
+
+.informacion {
+    
+    width: 70%;
+    height: 5000px;
+    margin-left: 190px;
+    background-color: dodgerblue;
+    padding-top: 80px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }

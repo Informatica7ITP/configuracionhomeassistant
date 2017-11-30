@@ -7,8 +7,7 @@
 
 	<title> Inicio</title>
 	<link rel="stylesheet" href="estilos/principal.css">
-    
-    
+    <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
 	<link rel="stylesheet" href="css/mi-slider.css">
 
@@ -50,26 +49,33 @@
 				<li><a id="inicio" href="index.php">Inicio</a></li>
 				<li><a href="">Acerca de </a>
 					<ul>
-						<li><a href="">Objetivos</a></li>
-						<li><a href="">Submenu2</a></li>
+						<li><a href="objetivos.php">Objetivos</a></li>
+						
 					</ul>
 				</li>
 				<li><a href="">Documentos</a>
 					<ul>
-						<li><a href="">Instalación de Raspbian</a></li>
-						<li><a href="">Configuración de la Red WAN</a>
+						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
+						<li><a href="redwifi.php">Configuración de la Red WAN</a>
                                 <ul>
-								<li><a href="">Modo Consola</a></li>
-								<li><a href="">Modo Gráfico</a></li>
+								<li><a href="consola.php">Modo Consola</a></li>
+								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
-						<li><a href="">Instalación de Home Assistant </a></li>
-						<li><a href="">Intregacion de modulo relay</a></li>
+						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
+						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
                         
 					</ul>
 				</li>
-				<li><a href="">Tutoriales</a></li>
-                <li><a href="">Recursos</a></li>
+				<li><a href="tutorial.php">Tutoriales</a></li>
+                <li><a href="">Recursos</a>
+                     <ul>
+								<li><a href="homeassistant.php">Home Assistant</a></li>
+								<li><a href="community.php">Home Assistant community</a></li>
+                                <li><a href="raspbiann.php">Raspbian</a></li>
+                                <li><a href="win32.php">Win32 Disk Image</a></li>
+							    </ul>
+                </li>
                 <li><a href="">Ayuda</a></li>
 			</ul>
                 
@@ -114,7 +120,166 @@
             </a>
     </div>	
 
+    <div id="cuerpo">
+        
+        <div id="cuerpocentro">
+        
+        
+          <div class="info" >
+        
+        <div id="amazon" >
+            <img src="images/amazon-echo.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="arduino" >
+            <img src="images/arduino.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="beikin" >
+            <img src="images/belkin.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="dark" >
+            <img src="images/dark.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="ecobee" >
+            <img src="images/ecobee.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="googlea" >
+            <img src="images/googlea.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="googlec" >
+            <img src="images/googlec.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="ifttt" >
+            <img src="images/ifttt.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="ikea" >
+            <img src="images/ikea.svg">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="kodi" >
+            <img src="images/kodi.png">
+        </div>
+            
+        </div>
+              <div class="info" >
+        
+        <div id="mqtt" >
+            <img src="images/mqtt.png">
+        </div>
+            
+        </div>
+        
+        <div class="info" >
+        
+        <div id="mysensor" >
+            <img src="images/mysensors.png">
+        </div>
+            
+        </div>
+        
+         <div class="info" >
+        
+        <div id="nest" >
+            <img src="images/nest.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="own" >
+            <img src="images/owntracks.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="philips" >
+            <img src="images/philips.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="plex" >
+            <img src="images/plex.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="pushbullet" >
+            <img src="images/pushbullet.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="sonos" >
+            <img src="images/sonos.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="wink" >
+            <img src="images/wink.png">
+        </div>
+            
+        </div>
+             <div class="info" >
+        
+        <div id="z-wave" >
+            <img src="images/zwave.png">
+        </div>
+            
+        </div>
+        
+        
+        </div>
+        
+        </div>
+        
+    
 
+<div id="footer">
+    <h5>
+    Copyright © | Home Assistant | ITPinotepa
+    </h5>
+</div>
 </div>
 
 </body>
