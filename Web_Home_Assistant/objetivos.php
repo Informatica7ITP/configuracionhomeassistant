@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Objetivos</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -57,14 +57,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +77,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -110,6 +110,9 @@
     <div class="content">
         <div class="informacion">
         <p>
+            
+    <h1>Objetivos</h1>        
+            
             Objetivos general<br><br> 
 Dar a conocer las configuraciones, equipos y herramientas que se necesitan  para  la automatización  de dispositivos electrónicos,  a través de la aplicación de home Assistant en Raspberry pi 3, con la finalidad de documentar información en español ya que en la red solo se encuentra información muy implícita sobre las configuraciones y en otros idiomas excepto en español<br><br><br>
 

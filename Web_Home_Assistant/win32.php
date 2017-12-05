@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Wink32 Disk Image</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -57,14 +57,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +77,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -110,12 +110,12 @@
 <div class="content">
      <div class="informacion">
         <p>
-            <br>Bootteador: Win32 Disk Imager</br>
-    <br>Win32 Disk Imager es una sencilla aplicación de código abierto que graba imágenes de CD o DVD en tu memoria USB o en tu tarjeta SD, creando un lector de discos virtual.</br>
-    <br>Este programa se utilizara para crear el boot en la microsd para insertarlo en el raspberry pi 3, y así obtendremos nuestro sistema raspbian en funcionamiento.</br>
-    <br></br>
+            <br> <h1>Bootteador: Win32 Disk Imager</h1><br>
+    <br>Win32 Disk Imager es una sencilla aplicación de código abierto que graba imágenes de CD o DVD en tu memoria USB o en tu tarjeta SD, creando un lector de discos virtual.<br>
+    <br>Este programa se utilizara para crear el boot en la microsd para insertarlo en el raspberry pi 3, y así obtendremos nuestro sistema raspbian en funcionamiento.<br>
+    <br><br>
     <A HREF="https://sourceforge.net/projects/win32diskimager/"> Descarga Win32 Disk Manager Aqui!!</A>
-            </p>
+        </p>
         </div>
         
 </div>       

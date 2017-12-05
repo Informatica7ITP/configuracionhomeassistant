@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Configuracion Relay</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -57,14 +57,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +77,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -110,6 +110,7 @@
 <div class="content">
          <div class="informacion">
         <p>
+            <h1>Configuracion de la Red Wifi</h1>
             <br>Configurar red Inalámbrica usando Entorno Gráfico</br>
     <br>Se configurará el acceso a la red usando la interfaz gráfica del sistema operativo Raspbian, para ello requeriremos de contar con el siguiente material</br>
     <br>Material: </br>
@@ -119,10 +120,12 @@
  <br><li>Monitor con puerto HDMI</li></br>
 <br><li>Raspberry</li></br>
 <br></br>
-<br>1.- Conectamos el HDMI, del raspberry al monitor, y es así como veremos reflejado en el monitor el sistema operativo Rasbian, y para poder interactuar con el sistema conectaremos el mouse y teclado al raspberry.</br>
-<br><img src="images/16.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
-<br>2.- Para conectarse al WiFi, en la parte superior derecha en el icono de redes nos conectaremos a una red</br>
-<br><img src="images/17.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><p>
+1.- Conectamos el HDMI, del raspberry al monitor, y es así como veremos reflejado en el monitor el sistema operativo Rasbian, y para poder interactuar con el sistema conectaremos el mouse y teclado al raspberry.</br>
+<br><img src="images/16.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br></br>
+<br>
+2.- Para conectarse al WiFi, en la parte superior derecha en el icono de redes nos conectaremos a una red</p></br>
+<br><img src="images/17.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter"  /><br><br></br>
 
 <br></br>
 <br></br>

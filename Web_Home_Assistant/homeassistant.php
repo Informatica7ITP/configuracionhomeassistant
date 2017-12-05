@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Home assistant</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -23,9 +23,6 @@
 	</script>
 </head>
 <body>
->
-
-
     <div id="cab">
      <div id="cabecera">
          
@@ -57,14 +54,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +74,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -110,10 +107,10 @@
 <div class="content">
          <div class="informacion">
         <p>
-            <br>Home assistant página</br>
+            <br><h1>Home Assistant</h1> </br>
     <br>Home Assistant es una plataforma de automatización del hogar de código abierto que se ejecuta en Python 3. Rastree y controle todos los dispositivos en el hogar y automatice el control. Perfecto para ejecutar en una Raspberry Pi.</br> 
 </br>
-               <A HREF="https://home-assistant.io/">Sitio Oficial de Home Assitant</A>
+               <a href="https://home-assistant.io/">Sitio Oficial de Home Assistant</a>
             </p>
         </div>
 </div>       
@@ -123,7 +120,6 @@
     Copyright © | Home Assistant | ITPinotepa
     </h5>
 </div> 
-    
-    
+   
 </body>
 </html>

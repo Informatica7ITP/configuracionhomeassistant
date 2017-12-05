@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Configuracion Relay</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -56,14 +56,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -76,7 +76,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -108,55 +108,58 @@
     
 <div class="content">
          <div class="informacion">
-        <p>
-            <br>ESQUEMA DE CONEXIÓN DE MODULO RELE A LOS PINES DE RASPBERRY PI</br>
-    <br><img src="images/23.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+        <p> 
+            <h1>Configuración</h1>
+            <br> ESQUEMA DE CONEXIÓN DE MODULO RELE A LOS PINES DE RASPBERRY PI <br>
+    <br><img src="images/23.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter"  /><br><br><br>
     <br>CREACION DE BOTONES EN HOME ASISTANT 
 (PRESENTANDO UN EJEMPLO CONTROLANDO UN FOCO DESDE LA APLICACIÓN DE HOME ASSISTANT)
-</br>
-    <br>1.-Lo primero a realizar es buscar el directorio de Home Asistan que esta oculto en el directorio personal del usuario, para poder visualizarlo utilizamos el comando  ls –lha</br>
-    <br><img src="images/24.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
-<br>2.-Una vez localizado entramos al directorio de Home Asistant </br>
-<br>cd .homeassistant (se escribe con el punto ya que es un directorio oculto)</br>
-<br>Una vez dentro del directorio ejecutamos el comando ls para ver el listado que se encuentra dentro de home asistant</br>
-<br><img src="images/25.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
-<br>3.-una vez dentro del directorio configuraremos el archivo de home assistant</br> 
+<br>
+  <br>1.-Lo primero a realizar es buscar el directorio de Home Asistan que esta oculto en el directorio personal del usuario, para poder visualizarlo utilizamos el comando  ls –lha<br>
+    <br><img src="images/24.png" alt="" title="#htmlcaption3" width="600px" height="350px" class="imgcenter"  /><br><br><br>
+<br>2.-Una vez localizado entramos al directorio de Home Asistant <br>
+<br>cd .homeassistant (se escribe con el punto ya que es un directorio oculto)<br>
+<br>Una vez dentro del directorio ejecutamos el comando ls para ver el listado que se encuentra dentro de home asistant<br>
+<br><img src="images/25.png" alt="" title="#htmlcaption3" width="600px" height="200px" class="imgcenter"  /><br><br><br>
+<br>3.-una vez dentro del directorio configuraremos el archivo de home assistant<br> 
 <br>configuration.yaml</br>
-<br><img src="images/26.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/26.png" alt="" title="#htmlcaption3" width="600px" height="100px" class="imgcenter"  /><br><br><br>
             </p>
-<br>4.-este archivo será configurado en sus tres momentos </br>
-<br>switch</br>
-<br>binary_sensor</br>
-<br>automation</br>
-<br><img src="images/27.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+            <p>
+<br>4.-este archivo será configurado en sus tres momentos <br>
+<br>switch<br>
+<br>binary_sensor<br>
+<br>automation<br>
+<br><img src="images/27.png" alt="" title="#htmlcaption3"width="550px" height="400px" class="imgcenter"  /><br><br><br>
 <br>4.1- switch</br>
 <br>Este momento es para crear el interruptor de encendido y apagado, aquí ocuparemos los puertos GPIO 17 y 18, en nuestro caso solo estará funcionando el pin 12 que pertenece al puerto GPIO 18(basado en la tabla de conexión de GPIO), ya que solo utilizaremos un foco.</br>
-<br><img src="images/28.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/28.png" alt="" title="#htmlcaption3" width="350px" height="200px" class="imgcenter"  /><br><br></br>
 <br>4.2- binary_sensor</br>
 <br>En este momento se realiza la lectura del la señalización del puerto para verificar  en que estado se encuentra</br>
-<br><img src="images/29.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/29.png" alt="" title="#htmlcaption3"width="350px" height="200px" class="imgcenter"  /><br><br></br>
 <br>4.3- automation</br>
 <br>En este momento se realiza la acción al momento que realiza las instrucciones del switch de la activación y desactivación del reley</br>
-<br><img src="images/30.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/30.png" alt="" title="#htmlcaption3"width="350px" height="200px" class="imgcenter" /><br><br></br>
 <br>En la aplicación de home Assitant quedaría asi:</br>
 <br>En dispositivo móvil</br>
-<br><img src="images/31.jpg" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/31.jpg" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br></br>
 <br>En computadora</br>
-<br><img src="images/32.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/32.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br></br>
 
 <br>DIAGRAMA DE CONEXION DEL MODULO RELE CON RASPBERRY PI</br>
 <br>Al momento de conectar el módulo rele  en el raspberry pi es importante hacer la conexión basándose en el esquema anterior, para la conexión de los pines de GND, IN1 y VCC</br>
 <br>GND: se conecta en el pin 6, ya que va a tierra</br>
 <br>VCC: alimenta al módulo rele el cual lo podemos obtener del pin número 2 ó 4, este lo alimenta con 5 volts</br>
 <br>IN1: pertenece al GPIO, en nuestro caso lo conectaremos al pin 12 al cual le pertenece el  puerto 18</br>
-<br><img src="images/33.png" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/33.png" alt="" title="#htmlcaption3" width="600px" height="450px" class="imgcenter" /><br><br></br>
 <br>Materiales</br>
 <li>foco</li>
 <li>raspberry</li>
 <li>módulo rele</li>
 <li>4 cables macho hembra</li>
 <li>cable de corriente para el foco</li>
-<br><img src="images/35.jpg" alt="" title="#htmlcaption3" width="400px"  /><br><br></br>
+<br><img src="images/35.jpg" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br></br>
+</p>
         </div>
 </div>       
         

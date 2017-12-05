@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Raspbian</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -23,7 +23,7 @@
 	</script>
 </head>
 <body>
->
+
 
 
     <div id="cab">
@@ -57,14 +57,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +77,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -110,13 +110,18 @@
 <div class="content">
      <div class="informacion">
         <p>
-            <p>Sistema Raspbian</p>
+            <p><h1>Sistema Raspbian</h1>
+              <br>
+              <br>
+
             <br>La Raspberry Pi usa normalmente sistema operativo GNU/Linux y por lo tanto libre basado en Debian Jessie (Debian 8.0) este es el sistema operativo que utilizaremos en nuestro  Raspberry pi 3, La distribución usa LXDE como escritorio y Midori como navegador web. Además contiene herramientas de desarrollo como IDLE para el lenguaje de programación Python o Scratch, y diferentes ejemplos de juegos usando los módulos Pygame.</br>
     
     <br>Destaca también el menú "raspi-config" que permite configurar el sistema operativo sin tener que modificar archivos de configuración manualmente. Entre sus funciones, permite expandir la partición root para que ocupe toda la tarjeta de memoria, configurar el teclado, aplicar overclock, etc.</br>
     
 <br>El sistema base que nos ayuda en la manipulación de la tarjeta Raspberry en la cual se puede configurar para distintas tareas que se le asigne para su uso en cualquier tipo de proyecto, es fácil de utilizar y no consume muchos recursos.</br>
     <br>Requisitos mínimos de sistema recomendados:</br>
+    <br>
+    <br>
 <div >
 <table style="width:100%",align="center" >
   <tr>
@@ -124,6 +129,7 @@
     <th>RAM(minimo)</th> 
     <th>RAM(recomendado)</th>
       <th>Disco duro</th>
+
   </tr>
   <tr>
     <td>Sin escritorio</td>

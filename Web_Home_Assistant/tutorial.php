@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> Tutoriales</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -57,14 +57,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +77,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -109,23 +109,35 @@
     
 <div class="content">
          <div class="informacion">
-        <p>
+        <p> <h1> Videos Tutoriales </h1>
             <br>Instalacion de Raspbian</br>
+            <br>
+            <br>
                <iframe width="754" height="380" src="https://www.youtube.com/embed/OxIKPABmksg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     <br></br>
     <br>Configuracion de red inalambrica de Raspberry</br>
+    <br>
+    <br>
     <iframe width="754" height="380" src="https://www.youtube.com/embed/RLQRGN-GG94" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     <br></br>
 <br>Configuracion de la red inalambrica en entorno grafico</br>
+<br>
+<br>
 <iframe width="754" height="380" src="https://www.youtube.com/embed/oiSIBx1Kyc0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 <br></br>
 <br>Instalacion Home Assitant</br>
+<br>
+<br>
 <iframe width="754" height="380" src="https://www.youtube.com/embed/q8I62mwZkdc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 <br></br>
 <br>Botones de HA Off</br>
+<br>
+<br>
 <iframe width="754" height="380" src="https://www.youtube.com/embed/XVk3jx5tjJk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 <br></br>
 <br>Prueba de encedido y apagado con Home Assistant desde un Movil</br>
+<br>
+<br>
 <iframe width="754" height="380" src="https://www.youtube.com/embed/74O0-KxFBwQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </p>
         </div>

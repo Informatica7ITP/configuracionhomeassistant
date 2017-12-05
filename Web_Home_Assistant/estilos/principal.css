@@ -35,7 +35,7 @@ html {
     background-color: #50C0F2;
     position: fixed;
     z-index: 10;
-    
+   
     
    
 }
@@ -92,7 +92,10 @@ html {
 ul, ol {
 list-style:none;
 			}
-			
+p{
+    text-align: justify;
+
+}			
 .nav > li {
 float:left;
 			}
@@ -299,7 +302,10 @@ h3{
 #cuerpo {
     width: 100%;
     height: 900px;
-    background-color: #fff;
+       background-color:darkturquoise;
+    background-image: url(../images/hom.png);
+    background-repeat: repeat;
+    padding-top: 30px;
 }
 
 #footer {
@@ -329,7 +335,7 @@ h5 {
     padding: 8px;
     text-align: center;
     text-decoration: none;
-    margin-left: 3px;
+    margin-left: 5px;
     margin-top: 10px;
     
 }
@@ -338,7 +344,7 @@ h5 {
     margin-left: 200px;
     width: 70%;
     height: 850px;
-    background-color: aqua;
+    background-color:  dodgerblue;
     padding-left: 27px;
 }
 
@@ -441,7 +447,7 @@ h5 {
 #philips img {
     width: 125px;
     height: 50px;
-background-color: fuchsia;
+
 
 }
 
@@ -481,19 +487,85 @@ background-color: fuchsia;
 
 .content {
     width: 100%;
-    height: 5000px;
-    background-color: darkturquoise;
+    height: 90%;
+    background-color:darkturquoise;
+    background-image: url(../images/hom.png);
+    background-repeat: repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .informacion {
     
     width: 70%;
-    height: 5000px;
+    height: 90%;
     margin-left: 190px;
-    background-color: dodgerblue;
-    padding-top: 80px;
-    text-align: justify;
-    padding-left: 100px;
-    padding-right: 100px;
+    background-color:  dodgerblue;
+    text-align: justify; 
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    
+}
+.informacion p
+{
+    color: #fff;
+     
+}
+.informacion  li
+{
+    color: #fff;
+    font-size: 20px; 
+}
+.informacion h1 {
+    color: #000;
+    font-size: 39px;
+}
+
+.ayuda {
+    
+    width: 70%;
+    height: 900px;
+    margin-left: 190px;
+    background-color:  white;
+    text-align: justify; 
+    
+}
+
+.contenedor {
+    width: 100%;
+    height: 1050px;
+    background-color:#46BD64;
+    background-image: url(../images/hom.png);
+    background-repeat: repeat;
+    padding-top: 70px;
+}
+
+.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+      
+      }
+
+
+#compo
+{
+    width: 100%;
+    height: 100px;
+    background-color:darkslategray;
+    background-image: url(../images/hom.png);
+    background-repeat: repeat;
+    padding-top: 20px;
+}
+#compo p {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
     
 }

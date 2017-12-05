@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title>Configuracion Relay</title>
+	<title> Ayuda</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -106,63 +107,23 @@
 
 </div> 
     
-<div class="content">
-         <div class="informacion">
+<div class="contenedor">
+     <div class="ayuda">
         <p>
-
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1Fq_GmM3yf89F5xgYBASQASwau3ZCAKaiHkYkcMa9Jh_q3Q/viewform?embedded=true" width="950" height="900" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
             
-            <h1>Configuracion de la Red Wifi</h1> <br> <br>
-
-Para poder conectar el Raspberry a la red debemos de hacer uso primeramente de una conexión por cable, y posteriormente establecer la conexión inalámbrica mediante una conexión ssh.<br> <br>
-Configurando red Inalámbrica mediante cable usando puerto Ethernet <br> <br>
-Material: <br> <br>
-1.- Router <br> <br>
-2.- Cable de red directo<br> <br>
-3.- Raspberry PI 3 “B”<br> <br>
-
-
-1.- Conectamos el Raspberry PI con el router mediante el cable de red:<br><br>
-            
-            <img src="images/9.jpg" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter"/><br><br>
-            
-2.- Entramos al router a través de la dirección de la puerta de enlace en este caso la ip es 192.168.0.1 con su respectivo usuario y contraseña  <br><br>
-            
-                        <img src="images/10.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br>
-            
-            
-3.- una vez dentro de la interfaz del router localizamos la lista de clientes conectados, y allí estará nuestro Raspberry Pi con su respectiva ip, esta nos servirá para podernos conectar remotamente al Raspberry pi<br><br>
-            
-            <img src="images/11.png" alt="" title="#htmlcaption3"width="450px" height="300px" class="imgcenter" /><br><br>
-            
-            4.- Una vez localizada la dirección ip, nos loguemos a través de ssh con la herramienta Putty para iniciar sesión en nuestro Raspberry será con el usuario y contraseña por defecto usuario: pi contraseña: raspberry 
-
-            <br><br>
-                        <img src="images/12.png" alt="" title="#htmlcaption3"width="450px" height="300px" class="imgcenter" /><br><br>
-
-            
-                        <img src="images/13.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br>
-            
-            5.- Una vez logueados en el raspberry pi tendremos que configurar el archivo interfaces con el siguiente comando<br><br>
-sudo nano /etc/network/interfaces<br><br>
-una vez dentro del archivo veremos lo siguiente y configuraremos<br><br>
-            
-
-                        <img src="images/14.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br>
-
-                         <img src="images/15.png" alt="" title="#htmlcaption3" width="450px" height="300px" class="imgcenter" /><br><br>
-
-            
-            
-            </p>
+        </p>
         </div>
+        
 </div>       
         
 <div id="footer">
     <h5>
     Copyright © | Home Assistant | ITPinotepa
     </h5>
-</div> 
-    
+</div>     
     
 </body>
 </html>
+
+

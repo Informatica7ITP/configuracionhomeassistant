@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	
 
 	 <meta charset="utf-8"/>	
           <meta name=”description” content="Automatización en Home Assistant"> 
           <meta name=”keywords” content="Broker, Home Assistant, Raspberry Pi">
 
-	<title> Inicio</title>
+	<title> configuracion red Wifi</title>
 	<link rel="stylesheet" href="estilos/principal.css">
     <link rel="icon" href="images/favicon.ico">    
     <link rel="stylesheet" href="css/nivo-slider.css">
@@ -57,14 +57,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -77,7 +77,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -110,8 +110,29 @@
 <div class="content">
          <div class="informacion">
         <p>
-            
-            </p>
+           <h1> Configuracion de la Red Wifi </h1>
+            <br>
+             <br>
+             <br>
+               
+                
+                
+                <img src="images/100.jpg" alt="" title="#htmlcaption3" width="500px" height="300px" class="imgcenter"/>
+                <p>
+                    <a href="consola.php">Configuracion de red mediante conexion análambrica</a>
+             </p>
+                <br> <br>
+                
+                
+              
+                <br><br>
+                  <img src="images/101.jpg" alt="" title="#htmlcaption3" width="500px" height="350px" class="imgcenter"/>
+                   
+                <p>
+                <a href="grafico.php"> Configuracion de red mediante conexion inálambrica</a>
+             </p>
+             
+             </p>
         </div>
 </div>       
         
@@ -120,7 +141,7 @@
     Copyright © | Home Assistant | ITPinotepa
     </h5>
 </div> 
-    
+ 
     
 </body>
 </html>

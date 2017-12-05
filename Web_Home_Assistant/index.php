@@ -18,6 +18,13 @@
 		$(window).on('load', function() {
 		    $('#slider').nivoSlider(); 
 		}); 
+        
+        
+        
+        
+        
+
+        
 	</script>
 </head>
 <body>
@@ -47,7 +54,7 @@
  <div> 
      <ul class="nav">
 				<li><a id="inicio" href="index.php">Inicio</a></li>
-				<li><a href="">Acerca de </a>
+				<li><a href="acercade.php">Acerca de </a>
 					<ul>
 						<li><a href="objetivos.php">Objetivos</a></li>
 						
@@ -56,14 +63,14 @@
 				<li><a href="">Documentos</a>
 					<ul>
 						<li><a href="raspbian.php">Instalación de Raspbian</a></li>
-						<li><a href="redwifi.php">Configuración de la Red WAN</a>
+						<li><a href="redwifi.php">Configuración de la Red Wifi</a>
                                 <ul>
 								<li><a href="consola.php">Modo Consola</a></li>
 								<li><a href="grafico.php">Modo Gráfico</a></li>
 							    </ul>
                             </li>
 						<li><a href="instalaciohome.php">Instalación de Home Assistant </a></li>
-						<li><a href="configrelay.php">Integacion de modulo relay</a></li>
+						<li><a href="configrelay.php">Integracion de modulo relay</a></li>
                         
 					</ul>
 				</li>
@@ -76,7 +83,7 @@
                                 <li><a href="win32.php">Win32 Disk Image</a></li>
 							    </ul>
                 </li>
-                <li><a href="">Ayuda</a></li>
+                <li><a href="Ayuda.php">Ayuda</a></li>
 			</ul>
                 
     </div>
@@ -111,7 +118,7 @@
         Home Assistant
     </h2>
  
-        <a href="Home Assitant.php">
+        <a href="https://home-assistant.io/" target="_blank">
         <div id="leer">
         <p>
         Leer Más
@@ -119,7 +126,11 @@
         </div>
             </a>
     </div>	
-
+    <div id="compo">
+    <p>
+    COMPONENTES
+    </p>
+    </div>
     <div id="cuerpo">
         
         <div id="cuerpocentro">
@@ -132,70 +143,80 @@
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="arduino" >
             <img src="images/arduino.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="beikin" >
             <img src="images/belkin.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="dark" >
             <img src="images/dark.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="ecobee" >
             <img src="images/ecobee.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="googlea" >
             <img src="images/googlea.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="googlec" >
             <img src="images/googlec.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="ifttt" >
             <img src="images/ifttt.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="ikea" >
             <img src="images/ikea.svg">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="kodi" >
             <img src="images/kodi.png">
         </div>
             
         </div>
-              <div class="info" >
+        
+        <div class="info" >
         
         <div id="mqtt" >
             <img src="images/mqtt.png">
@@ -218,49 +239,56 @@
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="own" >
             <img src="images/owntracks.png">
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="philips" >
             <img src="images/philips.png">
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="plex" >
             <img src="images/plex.png">
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="pushbullet" >
             <img src="images/pushbullet.png">
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="sonos" >
             <img src="images/sonos.png">
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="wink" >
             <img src="images/wink.png">
         </div>
             
         </div>
-             <div class="info" >
+        
+        <div class="info" >
         
         <div id="z-wave" >
             <img src="images/zwave.png">
